@@ -34,12 +34,12 @@
         <!-- NOME / SOBRENOME / ÁREA DE INTERESSE / INPUT-->
         <div class="form_group">
           <label>Nome:</label>
-          <input type="text" placeholder="Insira seu nome aqui">
+          <input type="text" placeholder="Insira seu nome aqui" required>
         </div>
 
         <div class="form_group">
           <label>Sobrenome:</label>
-          <input type="text" placeholder="Insira seu sobrenome aqui">
+          <input type="text" placeholder="Insira seu sobrenome aqui" required>
         </div>
         <!-- ÁREA DE INTERESSE -->
         <div class="form_group">
@@ -47,13 +47,13 @@
           <!-- CHECKBOX INPUT / FRONT END / BACK END / FRASE-->
           <div class="checkbox_itens">
 
-            <input type="checkbox" value="front">
+            <input type="checkbox" value="front" required>
             <label>Front-End</label>
 
-            <input type="checkbox" value="back">
+            <input type="checkbox" value="back" required>
             <label>Back-End</label>
 
-            <input type="checkbox" value="bd">
+            <input type="checkbox" value="bd" required>
             <label>Banco de Dados</label>
 
           </div>
@@ -62,24 +62,77 @@
         <!-- EMAIL / TELEFONE / FRASE CRIATIVA / INPUT-->
         <div class="form_group">
           <label>Email:</label>
-          <input type="email" placeholder="Insira seu e-mail aqui">
+          <input type="email" placeholder="Insira seu e-mail aqui" required>
         </div>
 
         <div class="form_group">
           <label>Telefone:</label>
-          <input type="text" placeholder="(99) 99999-9999 ">
+          <input type="text" placeholder="(99) 99999-9999 " required>
         </div>
 
         <div class="form_group">
           <label>Insira uma frase criativa aqui:</label>
-          <input type="text" placeholder="Qual frase criativa você gostaria de falar ?">
+          <input type="text" placeholder="Qual frase criativa você gostaria de falar ? (Opcional)">
         </div>
         <!-- SUBMIT CADASTRAR / INPUT-->
         <input type="submit" value="Cadastrar">
 
       </form>
-
     </section>
-    <!-- FIM SECTION -->
+
+    <!-- FOOTER / RODAPÉ -->
+    <footer>
+      <!-- ESCOLAS / SOBRE A DNC-->
+      <div class="linha_1">    
+        <!--Escolas-->
+        <nav>
+          <h5>Escolas</h5>
+          <ul>
+              <li>
+                <a href="">Formação em Tecnologia</a>
+              </li>
+              <li>
+                <a href="">Formação em Marketing</a>
+              </li>
+              <li>
+                <a href="">Formação em Dados</a>
+              </li>
+              <li>
+                <a href="">Formação em Projetos</a>
+              </li>
+              <li>
+                <a href="">Formação em Produto</a>
+              </li>
+          </ul>
+        </nav>
+        <!--Sobre a DNC-->
+        <nav>
+          <h5>Sobre a DNC</h5>
+          <ul>
+              <li>
+                <a href="">História</a>
+              </li>
+              <li>
+                <a href="">Missão e Valores</a>
+              </li>
+              <li>
+                <a href="">Trabalhe Conosco</a>
+              </li>
+              <li>
+                <a href="">Conteúdo Gratuito</a>
+              </li>
+          </ul>
+        </nav>
+        <!--Informações / Endereço -->
+        <div class="endereco">
+          © 2022 DTC Treinamentos & Consultoria LTDA | CNPJ: 27.995.577/0001-37 | R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030
+        </div>
+     </div> 
+     <!-- TERMOS DE USO / POLÍTICAS DE PRIVACIDADE-->
+     <div class="linha_2">
+        <a href="">Termos de Uso</a>
+        <a href="">Política de Privacidade</a>
+     </div>
+    </footer>
   </body>
 </html>
