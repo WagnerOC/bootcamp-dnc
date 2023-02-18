@@ -30,16 +30,16 @@
         </h2>
       </header>
       <!-- FORMS -->
-      <form>
+      <form action="https://formspree.io/f/myyawzwr" method="post">
         <!-- NOME / SOBRENOME / ÁREA DE INTERESSE / INPUT-->
         <div class="form_group">
           <label>Nome:</label>
-          <input type="text" placeholder="Insira seu nome aqui" required>
+          <input type="text" name="nome" placeholder="Insira seu nome aqui" required>
         </div>
 
         <div class="form_group">
           <label>Sobrenome:</label>
-          <input type="text" placeholder="Insira seu sobrenome aqui" required>
+          <input type="text" name="sobrenome" placeholder="Insira seu sobrenome aqui" required>
         </div>
         <!-- ÁREA DE INTERESSE -->
         <div class="form_group">
@@ -47,13 +47,13 @@
           <!-- CHECKBOX INPUT / FRONT END / BACK END / FRASE-->
           <div class="checkbox_itens">
 
-            <input type="checkbox" value="front" required>
+            <input type="checkbox" name="front-end" value="front" required>
             <label>Front-End</label>
 
-            <input type="checkbox" value="back" required>
+            <input type="checkbox" name="back-end" value="back" required>
             <label>Back-End</label>
 
-            <input type="checkbox" value="bd" required>
+            <input type="checkbox" name="bd" value="bd" required>
             <label>Banco de Dados</label>
 
           </div>
@@ -62,17 +62,17 @@
         <!-- EMAIL / TELEFONE / FRASE CRIATIVA / INPUT-->
         <div class="form_group">
           <label>Email:</label>
-          <input type="email" placeholder="Insira seu e-mail aqui" required>
+          <input type="email" name="e-mail" placeholder="Insira seu e-mail aqui" required>
         </div>
 
         <div class="form_group">
           <label>Telefone:</label>
-          <input type="text" placeholder="(99) 99999-9999 " required>
+          <input type="text" name="tel" placeholder="(99) 99999-9999 " required>
         </div>
 
         <div class="form_group">
           <label>Insira uma frase criativa aqui:</label>
-          <input type="text" placeholder="Qual frase criativa você gostaria de falar ? (Opcional)">
+          <input type="text" name="frase" placeholder="Qual frase criativa você gostaria de falar ? (Opcional)">
         </div>
         <!-- SUBMIT CADASTRAR / INPUT-->
         <input type="submit" value="Cadastrar">
