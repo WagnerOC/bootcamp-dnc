@@ -301,3 +301,14 @@ footer .linha_2 a:hover{
 
   }
 }
+
+/* FOOTER */
+
+footer .linha_1{
+  flex-direction: column;
+}
+
+footer .encereco{
+  width: 95%;
+  margin-bottom: 20px;
+}
